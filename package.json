@@ -1,0 +1,88 @@
+{
+  "name": "DietcodeApp",
+  "author": "Dietcode",
+  "description": "Dietcode app to maintais employees checkin checkout and ease for leave and work from home",
+  "license": "MIT",
+  "homepage": "http://dietco.de",
+  "bugs": "https://github.com/divyanshunegi/DietcodeApp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divyanshunegi/DietcodeApp"
+  },
+  "keywords": [
+    "React Native",
+    "Starter Kit",
+    "Bitrise",
+    "Redux",
+    "Auth0"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle:ios": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --entry-file index.ios.js --bundle-output ios/DietcodeApp/main.jsbundle --dev=false --verbose",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src test",
+    "coverage": "rimraf coverage && jest --coverage",
+    "version": "support/version-ios.sh"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "es6-symbol": "^3.0.2",
+    "event-emitter": "^0.3.4",
+    "immutable": "^3.7.6",
+    "lodash": "^4.11.0",
+    "moment": "^2.12.0",
+    "react": "~15.4.2",
+    "react-dom": "~15.4.2",
+    "react-native": "0.41.2",
+    "react-native-action-button": "^2.6.4",
+    "react-native-circular-progress": "^0.0.8",
+    "react-native-datepicker": "^1.4.4",
+    "react-native-drawer": "^2.3.0",
+    "react-native-fcm": "^6.2.0",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-modal-dropdown": "^0.4.2",
+    "react-native-oauth": "^2.1.16",
+    "react-native-textinput-effects": "^0.3.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^4.4.5",
+    "realm": "^1.1.1",
+    "redux": "^3.4.0",
+    "redux-logger": "^2.6.1",
+    "redux-loop": "^2.1.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.0.1",
+    "standard-http-error": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^7.1.0",
+    "babel-jest": "^17.0.2",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "enzyme": "^2.2.0",
+    "eslint": "^3.10.1",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-react": "^6.7.1",
+    "fetch-mock": "^5.5.0",
+    "istanbul": "1.0.0-alpha.2",
+    "jest": "^17.0.2",
+    "react-addons-test-utils": "~15.4.2",
+    "react-native-mock": "~0.2.5",
+    "react-test-renderer": "~15.4.2",
+    "remote-redux-devtools": "^0.5.7",
+    "rimraf": "^2.5.2"
+  }
+}

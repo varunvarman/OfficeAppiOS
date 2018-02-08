@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "237870906514",
+    "firebase_url": "https://office-8e284.firebaseio.com",
+    "project_id": "office-8e284",
+    "storage_bucket": "office-8e284.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237870906514:android:3989fc0152fbf0fa",
+        "android_client_info": {
+          "package_name": "com.dietcodeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237870906514-0uje7pld877e81s5nh500u06vffrbsd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaXBnAzYU0sCQo1mtDY3-JmVdQgSA9ZWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

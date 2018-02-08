@@ -1,0 +1,6 @@
+{
+  "react-native-tools": {
+    "showInternalLogs": true,
+    "logLevel": "Trace"
+  }
+}
